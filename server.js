@@ -16,6 +16,7 @@ app.use(cors(
      origin:'https://doctor-app-sepia.vercel.app',
      credentials:true
    }
+
 ));
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
